@@ -83,6 +83,12 @@
             android:defaultValue="1"
             android:dependency="lockscreen_battery_info" />
 
+       <Preference
+            android:title="@string/weather_title"
+            android:key="weather_option"
+            android:summary="@string/weather_config_title"
+            android:fragment="org.derpfest.derpspace.fragments.Weather" />
+
         <com.derp.support.preferences.SystemSettingListPreference
             android:key="screen_off_animation"
             android:title="@string/screen_off_animation_title"
