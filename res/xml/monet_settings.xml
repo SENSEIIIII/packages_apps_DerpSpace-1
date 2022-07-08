@@ -43,7 +43,7 @@
         android:key="monet_engine_white_luminance_user"
         android:title="@string/monet_engine_white_luminance_user_title"
         android:dependency="monet_engine_linear_lightness"
-        android:defaultValue="450"
+        android:defaultValue="200"
         android:max="1000"
         settings:min="1"
         settings:interval="25"/>
@@ -59,7 +59,7 @@
         android:title="@string/monet_engine_chroma_factor_title"
         android:defaultValue="100"
         android:max="500"
-        settings:min="50"
+        settings:min="25"
         settings:interval="25"/>
 
     <com.derp.support.preferences.SystemSettingSeekBarPreference
@@ -71,6 +71,4 @@
             settings:units="%"
             android:max="100"
             android:min="1" />
-            
 </PreferenceScreen>
-
